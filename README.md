@@ -1,17 +1,20 @@
 # Estendendo a classe MsNewGetdados
 
-Exemplo de herança em Advpl onde é criado uma classe derivada da MsNewGetdado com as seguintes funcionalidades:
+###### Class LbGetDados  -  Herança no Advpl. 
 
+A herança é um princípio da POO que permite a criação de novas classes a partir de outras previamente criadas, neste exemplo abordarei um modelo de classe derivada <b>LbGetDados</b> que herda as características da <b>MsNewGetDados</b>.
 
 ![LbGetDados.gif](./resource/LbGetDados.gif)
 
+ Novos métodos foram implementados na classe derivada "Filha":
 
-# Características 
+###### Métodos:
 
-- [x] Cria uma dialog padrão [Com opção de Enchoicebar] caso não seja informado para Getdados.
-- [x] Permite definir tamanho da dialog passando tamanho size em %.
-- [x] Permite a escolha entre 6 modelos de estilo.
-- [x] Permite informar um valor RGB para ser atribuido ao Getdados.
+- [x] :New Permite omitir o container, adicionando uma dialog padrão com EnchoiceBar.
+- [x] :SetSizePerc Permite definir tamanho da dialog passando tamanho size em %.
+- [x] :SetStyle Aplica um estilo pré-definido, possui 6 opções.
+- [x] :SetLineColor Permite informar um valor RGB para ser atribuido à Getdados.
+
 
 # Como utilizar?
 
